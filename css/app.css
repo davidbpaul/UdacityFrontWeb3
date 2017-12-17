@@ -1,0 +1,86 @@
+/* nav */
+
+#nav{
+  border-bottom: 6px solid powderblue;
+  width:100%;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.udacityLogo{
+  height: 100px;
+  width: 50%;
+  background-color: powderblue;
+}
+.udacityLogoMobile{
+  height: 100px;
+  width: 100%;
+  background-color: powderblue;
+}
+.floatRight{
+  float:right;
+}
+.floatLeft{
+  float:left;
+}
+.alignCenter{
+  text-align: center;
+}
+
+/* caption */
+
+#caption{
+  padding: 10px;
+  margin:auto;
+
+}
+.captionImg{
+  height: 500px;
+  width: 100%;
+  background-color: powderblue;
+  border: 2px solid powderblue;
+  border-radius: 25px;
+}
+.captionImgMobile{
+  height: 200px;
+  width: 100%;
+  background-color: powderblue;
+  border: 2px solid powderblue;
+  border-radius: 25px;
+}
+
+/* featured */
+.featuredCard{
+  margin-bottom: 10px;
+}
+.featuredTitle{
+  margin-bottom: 10px;
+}
+.featuredTitleText{
+  text-align:left;
+  color: powderblue;
+  font-weight: 60;
+}
+.featuredCardImg{
+  margin: auto;
+  margin-bottom: 10px;
+}
+.featuredCardImgStyle{
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 90%;
+  height: 300px;
+  margin-bottom: 10px;
+}
+.featuredCardTitle{
+  margin: auto;
+}
+.featuredCardTitleText{
+  text-align: center;
+}
+.featuredCardUrl{
+  margin: auto;
+}
+.featuredCardUrlText{
+  text-align: center;
+}
