@@ -72,6 +72,20 @@
   height: 300px;
   margin-bottom: 10px;
 }
+.featuredCardImgStyleTab{
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 90%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.featuredCardImgStyleMobile{
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 90%;
+  height: 150px;
+  margin-bottom: 10px;
+}
 .featuredCardTitle{
   margin: auto;
 }

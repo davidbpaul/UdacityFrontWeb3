@@ -13,46 +13,59 @@
   </head>
   <body>
     <div class="container-fluid">
-      <div id="nav" class="col-xs-12">
-        <div id="navLogo" class="col-sm-6 hidden-xs">
-          <img class="udacityLogo floatLeft" src="assets/udacity-logo.jpg">
-        </div>
-        <div id="navLogo" class="col-xs-12 hidden-sm hidden-md hidden-lg">
-          <img class="udacityLogoMobile" src="assets/udacity-logo.jpg" alt="Udacity Logo">
-        </div>
-        <div id="navDescription" class="col-sm-6 hidden-xs">
-          <div id="navTitle" class="col-sm-12">
-            <h1 class="floatRight">David Paul</h1>
+      <div class="row">
+        <header id="nav" class="col-xs-12">
+          <div class="col-sm-6 hidden-xs navLogo">
+            <img class="udacityLogo floatLeft navLogo" src="assets/udacity-logo.jpg" alt="logo">
           </div>
-          <div id="navSubtitle" class="col-sm-12">
-            <h2 class="floatRight"><small>Front-End Developer<small></h2>
+          <div id="navLogo" class="col-xs-12 hidden-sm hidden-md hidden-lg">
+            <img class="udacityLogoMobile" src="assets/udacity-logo.jpg" alt="Udacity Logo">
           </div>
-        </div>
-        <div id="navDescription" class="col-xs-12 hidden-sm hidden-md hidden-lg">
-          <div id="navTitle" class="col-xs-12">
+          <div class="col-sm-6 hidden-xs">
+            <div class="col-sm-12">
+              <h1 class="floatRight">David Paul</h1>
+            </div>
+            <div  class="col-sm-12">
+              <h2 class="floatRight"><small>Front-End Developer</small></h2>
+            </div>
+          </div>
+        </header>
+        <header class="col-xs-12 hidden-sm hidden-md hidden-lg">
+          <div  class="col-xs-12">
             <h1 class="alignCenter">David Paul</h1>
           </div>
-          <div id="navSubtitle" class="col-xs-12">
-            <h2 class="alignCenter"><small>Front-End Developer<small></h2>
+          <div class="col-xs-12">
+            <h2 class="alignCenter"><small>Front-End Developer</small></h2>
           </div>
-        </div>
+        </header>
       </div>
-      <div id="caption" class="col-sm-12 hidden-xs">
-        <img class="captionImg"src="assets/cable-information-2.jpg">
+      <div class="row">
+        <section class="col-sm-12 hidden-xs">
+          <h2>Caption:</h2>
+          <img class="captionImg" src="assets/cable-information-2.jpg" alt="Caption">
+        </section>
+        <!-- mobile -->
+        <section class="col-sm-12 hidden-sm hidden-md hidden-lg">
+          <h2>Caption:</h2>
+          <img class="captionImgMobile" src="assets/cable-information-2.jpg" alt="Caption">
+        </section>
       </div>
-      <!-- mobile -->
-      <div id="caption" class="col-sm-12 hidden-sm hidden-md hidden-lg">
-        <img class="captionImgMobile"src="assets/cable-information-2.jpg">
-      </div>
-      <div id="featured" class="col-sm-12">
-        <div id="featuredTitle" class="col-sm-12">
-          <h3 class="featuredTitleText">Featured Work</h3>
-        </div>
-        <!-- card 1 -->
-        <div id="featured" class="col-sm-12">
-          <div class="featuredCard col-sm-4">
-            <div class="featuredCardImg col-sm-12">
+      <div class="row">
+        <section id="featured" class="col-sm-12">
+          <div id="featuredTitle" class="col-sm-12">
+            <h3 class="featuredTitleText">Featured Work</h3>
+          </div>
+
+          <!-- card 1 -->
+          <article class="featuredCard col-sm-4">
+            <div class="featuredCardImg col-md-12 hidden-sm hidden-xs">
               <img class="featuredCardImgStyle floatLeft" src="assets/credit-card.jpg" alt="Credit Cards">
+            </div>
+            <div class="featuredCardImg hidden-xs hidden-md hidden-lg">
+              <img class="featuredCardImgStyleTab floatLeft" src="assets/credit-card.jpg" alt="Credit Cards">
+            </div>
+            <div class="featuredCardImg hidden-sm hidden-md hidden-lg">
+              <img class="featuredCardImgStyleMobile floatLeft" src="assets/credit-card.jpg" alt="Credit Cards">
             </div>
             <div  class="featuredCardTitle col-sm-12">
               <h4 class="featuredCardTitleText"><small>APPIFY</small></h4>
@@ -60,12 +73,18 @@
             <div  class="featuredCardUrl col-sm-12">
               <p class="featuredCardUrlText"><a href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a></p>
             </div>
-          </div>
+          </article>
 
-        <!-- card 2 -->
-          <div class="featuredCard col-sm-4">
-            <div class="featuredCardImg col-sm-12">
+          <!-- card 2 -->
+          <article class="featuredCard col-sm-4">
+            <div class="featuredCardImg col-md-12 hidden-sm hidden-xs">
               <img class="featuredCardImgStyle floatLeft" src="assets/computer.svg" alt="Computer">
+            </div>
+            <div class="featuredCardImg hidden-xs hidden-md hidden-lg">
+              <img class="featuredCardImgStyleTab floatLeft" src="assets/computer.svg" alt="Computer">
+            </div>
+            <div class="featuredCardImg hidden-sm hidden-md hidden-lg">
+              <img class="featuredCardImgStyleMobile floatLeft" src="assets/computer.svg" alt="Computer">
             </div>
             <div  class="featuredCardTitle col-sm-12">
               <h4 class="featuredCardTitleText"><small>SUNFLOWER</small></h4>
@@ -73,11 +92,17 @@
             <div  class="featuredCardUrl col-sm-12">
               <p class="featuredCardUrlText"><a href="https://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a></p>
             </div>
-          </div>
-        <!-- card 3 -->
-          <div class="featuredCard col-sm-4">
-            <div class="featuredCardImg col-sm-12">
+          </article>
+          <!-- card 3 -->
+          <article class="featuredCard col-sm-4">
+            <div class="featuredCardImg col-md-12 hidden-sm hidden-xs">
               <img class="featuredCardImgStyle floatLeft" src="assets/app-store.png" alt="app-store">
+            </div>
+            <div class="featuredCardImg hidden-xs hidden-md hidden-lg">
+              <img class="featuredCardImgStyleTab floatLeft" src="assets/app-store.png" alt="app-store">
+            </div>
+            <div class="featuredCardImg hidden-sm hidden-md hidden-lg">
+              <img class="featuredCardImgStyleMobile floatLeft" src="assets/app-store.png" alt="app-store">
             </div>
             <div  class="featuredCardTitle col-sm-12">
               <h4 class="featuredCardTitleText"><small>BOKEH</small></h4>
@@ -85,17 +110,13 @@
             <div  class="featuredCardUrl col-sm-12">
               <p class="featuredCardUrlText"><a href="https://github.com/udacity/Bokeh/">https://github.com/udacity/Bokeh/</a></p>
             </div>
-          </div>
-        </div>
+          </article>
+        </section>
       </div>
     </div>
-
   <!-- javascript libraries -->
   <!-- bootstrap -->
-    <script type="text/javascript" src"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
-
-
-
 
 </html>
