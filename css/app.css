@@ -9,7 +9,8 @@
 
 .udacityLogo{
   height: 100px;
-  width: 50%;
+  width: 100%;
+  margin:auto;
   background-color: powderblue;
 }
 .udacityLogoMobile{
@@ -21,7 +22,7 @@
   float:right;
 }
 .floatLeft{
-  float:left;
+  margin:auto;
 }
 .alignCenter{
   text-align: center;
@@ -35,14 +36,7 @@
 
 }
 .captionImg{
-  height: 500px;
-  width: 100%;
-  background-color: powderblue;
-  border: 2px solid powderblue;
-  border-radius: 25px;
-}
-.captionImgMobile{
-  height: 200px;
+  height: 300px;
   width: 100%;
   background-color: powderblue;
   border: 2px solid powderblue;
@@ -59,33 +53,23 @@
 .featuredTitleText{
   text-align:left;
   color: powderblue;
-  font-weight: 60;
+  font-weight: 60pt;
 }
 .featuredCardImg{
   margin: auto;
   margin-bottom: 10px;
 }
 .featuredCardImgStyle{
-  margin-right: 5%;
-  margin-left: 5%;
-  width: 90%;
+  width: 100%;
   height: 300px;
   margin-bottom: 10px;
 }
 .featuredCardImgStyleTab{
-  margin-right: 5%;
-  margin-left: 5%;
-  width: 90%;
+  width: 100%;
   height: 200px;
   margin-bottom: 10px;
 }
-.featuredCardImgStyleMobile{
-  margin-right: 5%;
-  margin-left: 5%;
-  width: 90%;
-  height: 150px;
-  margin-bottom: 10px;
-}
+
 .featuredCardTitle{
   margin: auto;
 }

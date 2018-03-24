@@ -5,51 +5,43 @@
     <title>Udacity Portfolio</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta charset="utf-8">
-    <!-- css libraries -->
-    <link rel="stylesheet" href="css/app.css">
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- css libraries -->
+    <link rel="stylesheet" href="css/app.css">
 
   </head>
   <body>
     <div class="container-fluid">
-      <div class="row">
-        <header id="nav" class="col-xs-12">
-          <div class="col-sm-6 hidden-xs navLogo">
-            <img class="udacityLogo floatLeft navLogo" src="assets/udacity-logo.jpg" alt="logo">
-          </div>
-          <div id="navLogo" class="col-xs-12 hidden-sm hidden-md hidden-lg">
-            <img class="udacityLogoMobile" src="assets/udacity-logo.jpg" alt="Udacity Logo">
-          </div>
-          <div class="col-sm-6 hidden-xs">
-            <div class="col-sm-12">
-              <h1 class="floatRight">David Paul</h1>
-            </div>
-            <div  class="col-sm-12">
-              <h2 class="floatRight"><small>Front-End Developer</small></h2>
-            </div>
-          </div>
-        </header>
-        <header class="col-xs-12 hidden-sm hidden-md hidden-lg">
-          <div  class="col-xs-12">
+      <header id="nav" class="row">
+        <div class="col-sm-2 navLogo">
+          <img class="udacityLogo" src="assets/udacity-logo.jpg" alt="logo">
+        </div>
+        <div class="col-sm-6 ">
+        </div>
+        <div class="col-sm-4">
+          <div class="col-sm-12">
             <h1 class="alignCenter">David Paul</h1>
           </div>
-          <div class="col-xs-12">
+          <div  class="col-sm-12">
             <h2 class="alignCenter"><small>Front-End Developer</small></h2>
           </div>
-        </header>
-      </div>
-      <div class="row">
-        <section class="col-sm-12 hidden-xs">
-          <h2>Caption:</h2>
-          <img class="captionImg" src="assets/cable-information-2.jpg" alt="Caption">
+        </div>
+      </header>
+
+
+
+      <div class="row img-con">
+        <section class="col-sm-2">
         </section>
-        <!-- mobile -->
-        <section class="col-sm-12 hidden-sm hidden-md hidden-lg">
+        <section class="col-sm-8">
           <h2>Caption:</h2>
-          <img class="captionImgMobile" src="assets/cable-information-2.jpg" alt="Caption">
+          <img class="captionImg img-responsive" src="assets/cable-information-2.jpg" alt="Caption">
+        </section>
+        <section class="col-sm-2">
         </section>
       </div>
+
       <div class="row">
         <section id="featured" class="col-sm-12">
           <div id="featuredTitle" class="col-sm-12">
@@ -58,14 +50,8 @@
 
           <!-- card 1 -->
           <article class="featuredCard col-sm-4">
-            <div class="featuredCardImg col-md-12 hidden-sm hidden-xs">
-              <img class="featuredCardImgStyle floatLeft" src="assets/credit-card.jpg" alt="Credit Cards">
-            </div>
-            <div class="featuredCardImg hidden-xs hidden-md hidden-lg">
-              <img class="featuredCardImgStyleTab floatLeft" src="assets/credit-card.jpg" alt="Credit Cards">
-            </div>
-            <div class="featuredCardImg hidden-sm hidden-md hidden-lg">
-              <img class="featuredCardImgStyleMobile floatLeft" src="assets/credit-card.jpg" alt="Credit Cards">
+            <div class="featuredCardImg col-md-12">
+              <img class="featuredCardImgStyle floatLeft img-responsive" src="assets/credit-card.jpg" alt="Credit Cards">
             </div>
             <div  class="featuredCardTitle col-sm-12">
               <h4 class="featuredCardTitleText"><small>APPIFY</small></h4>
@@ -77,14 +63,8 @@
 
           <!-- card 2 -->
           <article class="featuredCard col-sm-4">
-            <div class="featuredCardImg col-md-12 hidden-sm hidden-xs">
-              <img class="featuredCardImgStyle floatLeft" src="assets/computer.svg" alt="Computer">
-            </div>
-            <div class="featuredCardImg hidden-xs hidden-md hidden-lg">
-              <img class="featuredCardImgStyleTab floatLeft" src="assets/computer.svg" alt="Computer">
-            </div>
-            <div class="featuredCardImg hidden-sm hidden-md hidden-lg">
-              <img class="featuredCardImgStyleMobile floatLeft" src="assets/computer.svg" alt="Computer">
+            <div class="featuredCardImg col-md-12">
+              <img class="featuredCardImgStyle floatLeft img-responsive" src="assets/computer.svg" alt="Computer">
             </div>
             <div  class="featuredCardTitle col-sm-12">
               <h4 class="featuredCardTitleText"><small>SUNFLOWER</small></h4>
@@ -95,14 +75,8 @@
           </article>
           <!-- card 3 -->
           <article class="featuredCard col-sm-4">
-            <div class="featuredCardImg col-md-12 hidden-sm hidden-xs">
-              <img class="featuredCardImgStyle floatLeft" src="assets/app-store.png" alt="app-store">
-            </div>
-            <div class="featuredCardImg hidden-xs hidden-md hidden-lg">
-              <img class="featuredCardImgStyleTab floatLeft" src="assets/app-store.png" alt="app-store">
-            </div>
-            <div class="featuredCardImg hidden-sm hidden-md hidden-lg">
-              <img class="featuredCardImgStyleMobile floatLeft" src="assets/app-store.png" alt="app-store">
+            <div class="featuredCardImg col-md-12">
+              <img class="featuredCardImgStyle floatLeft img-responsive" src="assets/app-store.png" alt="app-store">
             </div>
             <div  class="featuredCardTitle col-sm-12">
               <h4 class="featuredCardTitleText"><small>BOKEH</small></h4>
@@ -114,8 +88,13 @@
         </section>
       </div>
     </div>
-  <!-- javascript libraries -->
-  <!-- bootstrap -->
+    <!-- javascript libraries -->
+    <!-- bootstrap -->
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 
